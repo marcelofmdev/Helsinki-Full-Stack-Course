@@ -1,0 +1,20 @@
+title Exercise 0.6: New note in single page app
+
+note over browser:
+user types their note and submits it
+end note
+
+note over browser:
+browser adds user's new note to
+the HTML document via JavaScript
+and rerenders the list on the page
+end note
+
+note over browser:
+then the browser sends the new note
+as a JSON-string to the server
+with a POST request
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTTP 201 status code
